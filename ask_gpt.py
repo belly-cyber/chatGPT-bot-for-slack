@@ -2,9 +2,9 @@ import os
 import openai
 from flask import Flask, render_template, url_for,request
     
-hidden_url = ''
+hidden_url = '/some/hidden/folder/really/deep/to/find/'
 response_template = {"response_type": "in_channel","text": "{}" }
-openai.api_key = ""
+openai.api_key = "df;adkfja;iaa;vrierie9o30epfpo"
 
 def ask_chatgpt(user_question,tokens=100):
     respond = openai.Completion.create( model="text-davinci-003",prompt=user_question,max_tokens=tokens)
