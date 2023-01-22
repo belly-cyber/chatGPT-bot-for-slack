@@ -19,7 +19,7 @@ By creating a /command that anyone in your slack organization can access it will
 ## setup
 First things first, get a openai api key from the link above. 
 
-As a security measure I hid the post url in a really nested subdirectory, to make it harder on the web scrappers to find.
+As a security measure I hid the post url in a really nested subdirectory, to make it harder on the web scrappers to find. its up to you on choosing the subdirectory layout. 
 
 Create your /command example: /chatGPT, /chatbot, /askGPT, /question. when creating your command it will ask for a url to send the request. thats where you would in put your http://IP/hidden_url. after finishing your app, dont forget to add it to your workspace. your /command should auto populate as you start typing it out.
 
